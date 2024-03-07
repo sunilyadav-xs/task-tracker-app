@@ -80,6 +80,10 @@ body {
   justify-content: space-between;
 }
 
+.icons{
+  display: flex;
+  gap: 15px;
+}
 .add-form {
   margin-bottom: 40px;
 }
