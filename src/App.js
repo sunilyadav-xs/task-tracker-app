@@ -93,6 +93,8 @@ function App() {
                     tasks={tasks}
                     onDelete={deleteTask}
                     onToggle={toggleReminder}
+                    fetchTask={fetchTask}
+                    setTasks={setTasks}
                   />
                 ) : (
                   "No Tasks To Show"
